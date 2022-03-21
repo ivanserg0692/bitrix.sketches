@@ -2,7 +2,7 @@
 Принцип ООП  подхода
 
 Посредствам метода
-Exstensions\HttpRequests\Helper::sendPost($url, array $arData = [], array $arHeaders = []))
+Extensions\HttpRequests\Helper::sendPost($url, array $arData = [], array $arHeaders = []))
 мы можем сделать аналог, отправки формы но, только со стороны PhP
 
 Указываем 
@@ -19,4 +19,4 @@ $url
 Класс для демонстрации инкапсуляции удаленного сервера на примере MindBox
 Внутрение механизмы дополнительных запросов инкапсулируем внутри класса.
 Наружу делаем стандартные методы типа push, pull
-Exstensions\MindBox\Helpers
+Extensions\MindBox\Helpers

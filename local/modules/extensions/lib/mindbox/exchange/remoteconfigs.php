@@ -1,6 +1,6 @@
 <?php
 
-namespace Exstensions\remoteServer\Exchange;
+namespace Extensions\remoteServer\Exchange;
 /**
  * константные конфиги выносим в константы
  */

@@ -1,9 +1,9 @@
 <?php
 
 
-namespace Exstensions\remoteServer;
+namespace Extensions\remoteServer;
 
-use Exstensions\RemoteCards;
+use Extensions\RemoteCards;
 
 
 class Helpers
