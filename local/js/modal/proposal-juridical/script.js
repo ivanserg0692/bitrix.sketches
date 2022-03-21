@@ -16,6 +16,28 @@
 
 
             function initValidator() {
+                /**
+                 * настройка Jquery плагина validator
+                 */
+                $.validator.addMethod('email', (value, element) => {
+                    return Boolean(/^([^@ \.]+\.)*[^@\. ]+@([^\. @]+\.)+[^ @\.]{2,4}$/g.exec(value))
+                });
+                $.validator.addMethod('address', (value, element) => {
+                    return Boolean(/^^\d+, [^,]+, [^,]+, [^,]+$/g.exec(value))
+                });
+                $.validator.addMethod('comment', (value, element) => {
+                    return value.replaceAll(' ', '').length > 0
+                });
+                $.validator.addMethod('phone', (value, element) => {
+                    return instance._phone || !value
+                });
+                const validator = instance._$form.validate({
+                    errorClass: 'validation-error text error_js',
+                    // wrapper: 'label',
+                    errorElement: 'label',
+                    validClass: 'validated'
+                });
+                instance._validator = validator;
             }
 
             function initPhoneEvents() {
