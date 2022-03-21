@@ -1,0 +1,25 @@
+.proposal-juridical__wrap-link {
+    text-align: center;
+    font-size: .9em;
+}
+
+.proposal-juridical-form__frame {
+    border: 0.12em solid #e7e7e7;
+    padding: 20px;
+}
+
+.modal-caption {
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+}
+
+.modal-caption__row {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.modal-caption__row_v1 {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
