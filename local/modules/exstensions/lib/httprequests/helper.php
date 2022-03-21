@@ -1,8 +1,8 @@
 <?php
 
-namespace Exstansions\HttpRequests;
+namespace Exstensions\HttpRequests;
 
-use Exstansions\HttpRequests\Response;
+use Exstensions\HttpRequests\Response;
 
 //оберетка для  REST запросов
 class Helper

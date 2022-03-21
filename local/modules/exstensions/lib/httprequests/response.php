@@ -1,6 +1,6 @@
 <?php
 
-namespace Exstansions\HttpRequests;
+namespace Exstensions\HttpRequests;
 
 /**
  * оберетка для хранения ответа REST запросов
