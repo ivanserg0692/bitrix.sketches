@@ -2,6 +2,7 @@
 Принцип ООП  подхода
 Посредствам метода
 Exstensions\HttpRequests\Helper::sendPost($url, array $arData = [], array $arHeaders = []))
+
 мы можем сделать аналог, отправки формы но, только со стороны PhP
 Указываем $url
 Массив данных $arData в формете [inputName => value]
